@@ -174,7 +174,7 @@ Classifier-Free Guidance(CFG)는 이번 프로젝트에서 가장 흥미로웠�
 ## 🔗 참고 자료 (References)
 
 ### 강의 / 커리큘럼
-- **NVIDIA Deep Learning Institute** — *Generative AI with Diffusion Models* (이 프로젝트의 학습 출처)
+- **NVIDIA Deep Learning Institute** — *Generative AI with Diffusion Models* 
 
 ### 핵심 논문
 - Ho, Jain, Abbeel. **DDPM**: *Denoising Diffusion Probabilistic Models*, 2020. — [arXiv:2006.11239](https://arxiv.org/abs/2006.11239)
