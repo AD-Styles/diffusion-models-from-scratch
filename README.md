@@ -168,3 +168,23 @@ Classifier-Free Guidance(CFG)는 이번 프로젝트에서 가장 흥미로웠�
 물론 아쉬운 점도 많습니다. 10 Epoch이라는 짧은 학습으로는 생성 이미지가 아직 다소 흐릿하고, 클래스 간 경계가 분명하지 않은 결과(Sandal 카테고리에 굽 있는 신발이 섞여 나오는 현상 같은)도 있었습니다. 더 많은 타임스텝(T=1000), Self-Attention 레이어 추가, Cosine Noise Schedule 같은 개선 여지가 보이는데 이 부분은 다음 단계로 남겨두려고 합니다. 또 사전학습 CLIP 모델과 연결해 텍스트로 이미지를 생성하는 파이프라인도 직접 시도해보고 싶습니다. 이 프로젝트는 가장 작은 형태의 구현이지만, 나중에 Stable Diffusion 같은 큰 모델의 코드를 봤을 때 어떤 부분이 어떤 역할을 하는지 빠르게 이해할 수 있는 토대가 된 것 같습니다.
 
 가장 큰 수확은, API를 호출해서 결과만 보던 입장에서 벗어나 노이즈 한 번을 더하고 빼는 수식 단계부터 직접 코드로 옮겨봤다는 점입니다. "이 모델은 이렇게 작동한다"는 설명을 들을 때 머리로만 이해했던 것이, 한 줄 한 줄 직접 짜보고 시각화로 확인하면서 비로소 손에 잡히는 지식으로 바뀐 느낌입니다. 앞으로 더 큰 모델을 다루게 되더라도, 이번에 쌓은 "수식을 코드로 옮기고 시각화로 검증하는" 흐름이 새로운 모델을 빠르게 흡수하는 데 든든한 토대가 될 거라고 생각합니다.
+
+---
+
+## 🔗 참고 자료 (References)
+
+### 강의 / 커리큘럼
+- **NVIDIA Deep Learning Institute** — *Generative AI with Diffusion Models* (이 프로젝트의 학습 출처)
+
+### 핵심 논문
+- Ho, Jain, Abbeel. **DDPM**: *Denoising Diffusion Probabilistic Models*, 2020. — [arXiv:2006.11239](https://arxiv.org/abs/2006.11239)
+- Ho, Salimans. **CFG**: *Classifier-Free Diffusion Guidance*, 2022. — [arXiv:2207.12598](https://arxiv.org/abs/2207.12598)
+- Ronneberger, Fischer, Brox. **U-Net**: *Convolutional Networks for Biomedical Image Segmentation*, 2015. — [arXiv:1505.04597](https://arxiv.org/abs/1505.04597)
+
+### 데이터셋 / 라이브러리
+- [**FashionMNIST**](https://github.com/zalandoresearch/fashion-mnist) — Zalando Research
+- [**einops**](https://einops.rocks/) — `Rearrange` 연산용 라이브러리
+
+### 블로그 / 해설
+- Lilian Weng — [*What are Diffusion Models?*](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/) — 디퓨전 모델의 수식 유도와 직관적 해설
+- Odena, Dumoulin, Olah — [*Deconvolution and Checkerboard Artifacts*](https://distill.pub/2016/deconv-checkerboard/), Distill, 2016 — 체커보드 문제의 원인과 해법
