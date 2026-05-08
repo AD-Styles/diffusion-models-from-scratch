@@ -90,7 +90,7 @@ diffusion-models-from-scratch/
 
 ## 🔍 시각화 결과 분석 (Visualization Analysis)
 
-### 1. Forward Diffusion — 노이즈가 더해지는 과정
+### 1) Forward Diffusion — 노이즈가 더해지는 과정
 
 <img src="results/01_forward_diffusion.png" width="100%">
 
@@ -101,7 +101,7 @@ diffusion-models-from-scratch/
 
 ---
 
-### 2. Training Curve — 학습이 잘 됐다는 증거
+### 2) Training Curve — 학습이 잘 됐다는 증거
 
 <img src="results/02_training_curve.png" width="100%">
 
