@@ -23,14 +23,14 @@
 
 ```text
 diffusion-models-from-scratch/
-├── src/
-│   └── main.py                         # 전체 파이프라인 (학습 → 시각화)
 ├── results/                    
 │   ├── 01_forward_diffusion.png        # 노이즈가 더해지는 과정 시각화
 │   ├── 02_training_curve.png           # Train/Val Loss 학습 곡선
 │   ├── 03_reverse_trajectory.png       # 노이즈에서 이미지로 복원
 │   ├── 04_generated_samples.png        # 10개 클래스 생성 결과
 │   └── 05_cfg_weight_comparison.png    # CFG guidance weight 비교
+├── src/
+│   └── main.py                         # 전체 파이프라인 (학습 → 시각화)
 ├── .gitignore
 ├── LICENSE
 ├── README.md
