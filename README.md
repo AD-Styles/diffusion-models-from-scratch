@@ -111,7 +111,7 @@ diffusion-models-from-scratch/
 
 ---
 
-### 3. Reverse Diffusion — 노이즈에서 이미지로 복원 (클래스: Sneaker, CFG `w=2.0`)
+### 3) Reverse Diffusion — 노이즈에서 이미지로 복원 (클래스: Sneaker, CFG `w=2.0`)
 
 <img src="results/03_reverse_trajectory.png" width="100%">
 
@@ -123,7 +123,7 @@ diffusion-models-from-scratch/
 
 ---
 
-### 4. Generated Samples — 10개 클래스 모두 생성 (CFG `w=2.0`)
+### 4) Generated Samples — 10개 클래스 모두 생성 (CFG `w=2.0`)
 
 <img src="results/04_generated_samples.png" width="55%">
 
@@ -135,7 +135,7 @@ diffusion-models-from-scratch/
 
 ---
 
-### 5. CFG Weight 비교 — guidance weight `w` 효과 (클래스: T-shirt)
+### 5) CFG Weight 비교 — guidance weight `w` 효과 (클래스: T-shirt)
 
 <img src="results/05_cfg_weight_comparison.png" width="60%">
 
