@@ -24,8 +24,8 @@
 ```text
 diffusion-models-from-scratch/
 ├── src/
-│   └── main.py                 # 전체 파이프라인 (학습 → 시각화)
-├── results/                    # 결과 시각화 5장
+│   └── main.py                        # 전체 파이프라인 (학습 → 시각화)
+├── results/                          
 │   ├── 01_forward_diffusion.png
 │   ├── 02_training_curve.png
 │   ├── 03_reverse_trajectory.png
