@@ -99,8 +99,6 @@ diffusion-models-from-scratch/
 - `t=200` 이후로는 거의 노이즈 — 원본 정보가 사실상 사라짐
 - 단계마다 직접 노이즈를 더한 게 아니라, **수식 한 줄로 임의 t 시점을 한 번에 계산**한 결과
 
----
-
 ### 2. Training Curve — 학습이 잘 됐다는 증거
 
 <img src="results/02_training_curve.png" width="100%">
@@ -108,8 +106,6 @@ diffusion-models-from-scratch/
 - 초반(Epoch 1 → 2)에 Loss가 가장 큰 폭(0.115 → 0.073)으로 떨어진 후 점차 평탄해짐
 - Epoch 3 이후로는 Train(파랑) / Val(빨강) 두 곡선이 거의 겹쳐서 함께 내려감 → 과적합 없이 잘 일반화됨
 - Epoch 9에서 Val Loss 최저(0.0594), Epoch 10에서 살짝 반등 — 학습 후반부에 학습률이 줄어들면서 수렴 영역에 들어선 모습
-
----
 
 ### 3. Reverse Diffusion — 노이즈에서 이미지로 복원 (클래스: Sneaker, CFG `w=2.0`)
 
