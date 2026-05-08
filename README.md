@@ -1,6 +1,6 @@
 # 🎨 Generative AI with Diffusion Models — From Scratch
 
-### NVIDIA DLI 'Generative AI with Diffusion Models' 커리큘럼을 학습하면서, FashionMNIST 위에서 디퓨전 모델과 Classifier-Free Guidance를 직접 구현해본 학습용 포트폴리오.
+### NVIDIA DLI 'Generative AI with Diffusion Models' 커리큘럼을 학습하면서, FashionMNIST 위에서 디퓨전 모델과 Classifier-Free Guidance를 직접 구현해본 학습용 포트폴리오
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)
